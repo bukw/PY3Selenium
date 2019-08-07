@@ -1,0 +1,10 @@
+username: zxx
+age: 18
+orther :
+  height: "175CM"
+  weitht: "107KG"
+JobHistory: 
+  - name : "IBM"
+    date : "2015-2017"
+  - name : "GA"
+    date : "2017-now"

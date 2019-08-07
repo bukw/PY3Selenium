@@ -1,0 +1,3 @@
+case1 : ('85558888','a666666','''//*[@id="login-holder"]/div[4]/form/div/div[2]/div[4]/p''','Incorrect account or password')
+case2 : ('855','a111111','''/html/body/div[1]/div[4]/form/div/div[2]/em[1]''','The length cannot be less than10')
+case3 : ('81234567890123456','a111111','''/html/body/div[1]/div[4]/form/div/div[2]/em[1]''','The length cannot be more than15')

@@ -1,0 +1,16 @@
+login:
+  - case1: 
+     name:85558888
+     pwd:a666666
+     xpath://*[@id="login-holder"]/div[4]/form/div/div[2]/div[4]/p
+     asserttext:Incorrect account or password
+  - case2:
+     name:'855'
+     pwd:'a111111'
+     xpath:'''/html/body/div[1]/div[4]/form/div/div[2]/em[1]'''
+     asserttext:'The length cannot be less than10'
+  - case3:
+     name:'81234567890123456'
+     pwd：'a111111'
+     xpath:'''/html/body/div[1]/div[4]/form/div/div[2]/em[1]'''
+     asserttext:'The length cannot be more than15'
